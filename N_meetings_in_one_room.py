@@ -1,5 +1,5 @@
-t=int(input())
-while t > 0:
+ttt=int(input())
+while ttt > 0:
     n = int(input())
     S = list(map(int, input().split()))
     E = list(map(int, input().split()))
