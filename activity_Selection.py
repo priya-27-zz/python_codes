@@ -8,9 +8,9 @@ for _ in range(t):
         se.append((a[idx],b[idx],idx))
     se.sort(key=lambda x:x[1])
     i=0
-    ctr=1
+    counterMy=1
     for j in range(1,n):
         if(se[j][0]>=se[i][1]):
-            ctr+=1
+            counterMy+=1
             i=j
-    print(ctr)        
+    print(counterMy)
